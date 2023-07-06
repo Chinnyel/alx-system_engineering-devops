@@ -1,2 +1,2 @@
 #!/bin/bash
-ls ap1|sort -df|sed -e'1s/^/\.\n\.\.\n/' -e's/,$/\n/,
+ls -m
